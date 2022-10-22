@@ -1,0 +1,98 @@
+.logo {
+    width: 106.58px;
+    height: 60px;
+    left: 0;
+}
+.nav-icon{
+    position: relative;
+}
+.left-btn{
+    right: 0;
+    position: absolute;
+}
+
+
+.NavbarLink {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 0 10px;
+}
+
+.NavbarBtn {
+    width: 143px;
+    height: 35px;
+    background: #6A17FF;
+    border-radius: 3px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+
+.headerBanner img{
+    margin-top: 100px;
+}
+
+/* .NavbarContent{
+    width: 100%;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-image: url(../../Images/PLUR_Gradient_Line\ 7.png) 30 round;
+} */
+
+.smdisplaynone{
+    display: none !important;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .headerBanner img{
+        margin-top: 20px;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .NavbarContent{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        gap:12px;
+    }
+    .smdisplaynone{
+        display: block !important;
+    }
+   
+    .NavbarLink{
+        display: inline-block;
+        padding: 10px 0;
+        text-align: center;
+    }
+    
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .NavbarContent{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        gap:22px;
+        padding: 0 120px;
+    }
+    .NavbarLink{
+        display: inline-block;
+        padding: 10px 0;
+    }
+}
